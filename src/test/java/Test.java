@@ -24,6 +24,10 @@ public class Test {
         set.add(null);
         System.out.println(set.size());
 
+
+        int i = 45;
+        System.out.println(i*32==(i<<5));
+        System.out.println(i*31==((i<<5)-i));
     }
 
 }
