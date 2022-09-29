@@ -12,6 +12,7 @@ public class ProxyTest {
 
     public static void main(String[] args) {
 
+//        System.getProperties().put("jdk.proxy.ProxyGenerator.saveGeneratedFiles", "true");
         //创建被代理的实例对象
         Person renter = new Renter();
         //创建InvocationHandler对象
